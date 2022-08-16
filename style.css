@@ -1,0 +1,197 @@
+body {
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.lhalf {
+padding: 0;
+margin: 0;
+    background-image: url("image/back.jpg");
+    height: 100vh;
+    width: 50%;
+    background-size: cover;
+    float: left;
+    position: relative;
+}
+.rhalf {
+    background-color: white;
+    height: 100vh;
+    width: 50%;
+    float: right;
+    position: relative;
+
+}
+.linnerhalf {
+    padding-top: 10%;
+
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    width: 80%;
+    background-image: url("image/back.jpg");
+    background-size: cover;
+    height: 60vh;
+    box-shadow: -5px 0 10px 5px black;
+}
+.linnerhalf h2 {
+    font-size: 6rem;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 1px black;
+}
+.rinnerhalf{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    width: 80%;
+    background-color: white;
+    height: 60vh;
+    box-shadow: 5px 0 10px 5px black;
+padding-top: 20px;
+}
+label{
+   font-size: 2rem; 
+   background-color: bisque;
+   display: block;
+   text-align: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border-radius: 25px;
+   background-image: url("image/back.jpg");
+   margin-top: 10px;
+   margin-bottom: 25px;
+   width: 60%;
+   color: white;
+   text-shadow: 2px 1px black;
+   margin-left: 20%;
+   border: 2px solid rgb(37, 4, 36);
+}
+.inputbox {
+
+    width: 60%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-left: 20%;
+    font-size: 1rem;
+    font-style: italic;
+    height: 50px;
+    /* background-image: url("image/back.jpg"); */
+    text-align: center;
+    display: block;
+}
+.submitbox {
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 35%;
+    margin-top: 30px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgba(78, 22, 62, 0.466);
+}
+.submitbox:hover {
+    background-color: antiquewhite;
+}
+.error {
+            color: red;
+
+}
+.index1 {
+    background-color: rgba(148, 13, 148, 0.452);
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+.namediv {
+    position: absolute;
+    width: 40%;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   background-image: url("image/back.jpg");
+   padding: 2rem;
+    background-size: cover;
+    box-shadow: 5px 0 10px 5px black;
+}
+.pagination {
+    position: absolute;
+    bottom: 10px;
+    color: black ;
+    margin-left: 35%;
+}
+.submitindex {
+    margin-top: 2px;
+    color: white;
+    font-size: 2rem;
+}
+.submitindex:hover {
+    color: black;
+}
+a{
+    color: black;
+}
+.imgbox {
+    margin: 0 auto;
+    background-color: white;
+    /* width: 30%; */
+    display: block;
+    color: rgb(75, 16, 75);
+    margin-bottom: 2rem;
+}
+.index3{
+background-color: rgba(190, 96, 14, 0.418);
+
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+table , tr , th , td {
+ border: 1px solid black;
+ border-collapse: collapse;
+}
+.submitindex3 {
+    font-size: 1rem;
+    color: white;
+}
+.submitindex3:hover {
+    color: black;
+}
+.index4{
+    background-color: rgba(14, 190, 87, 0.418);
+
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+.index5{
+    background-color: rgba(175, 106, 97, 0.918);
+
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+.finalinput {
+    margin-top: 0;
+    margin-bottom: 2px;
+    width: 60%;
+    font-size: 1rem;
+    margin-left: 20%;
+   
+    
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
