@@ -20,9 +20,6 @@ if($_SESSION['uname']!="admin" || $_SESSION['pwd']!="admin"){
 
 
 ?>
-
-
-?>
 <?php
 include "upload.php";
 ?>
