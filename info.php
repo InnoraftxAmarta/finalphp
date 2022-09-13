@@ -9,33 +9,7 @@
 </head>
 <body>
 
-<?php
 
-if($_GET['q']==1){
-    echo "<script>location.href='index1.php'</script>";
-}
-elseif($_GET['q']==2){
-    echo "<script>location.href='index2.php'</script>";
-
-}
-elseif($_GET['q']==3){
-    echo "<script>location.href='index3.php'</script>";
-
-}
-elseif($_GET['q']==4){
-    echo "<script>location.href='index4.php'</script>";
-
-}
-elseif($_GET['q']==5){
-    echo "<script>location.href='index5.php'</script>";
-
-}
-elseif($_GET['q']==6){
-    echo "<script>location.href='info.php'</script>";
-
-}
-
-?>
 
 <?php
 
